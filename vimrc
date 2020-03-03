@@ -64,3 +64,5 @@ color snazzy
 "NERDTree config
 map <LEADER>t :NERDTree<CR>
 map <LEADER>tt :NERDTreeToggle<CR>
+"ctrlp config
+let g:ctrlp_working_path_mode = 'ra'
