@@ -1,0 +1,12 @@
+[submodule "pack/crazybit/start/auto-pairs"]
+	path = pack/crazybit/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/crazybit/start/vim-snazzy"]
+	path = pack/crazybit/start/vim-snazzy
+	url = https://github.com/connorholyday/vim-snazzy
+[submodule "pack/crazybit/start/nerdtree"]
+	path = pack/crazybit/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/crazybit/start/vim-airline"]
+	path = pack/crazybit/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline

@@ -1,0 +1,68 @@
+let mapleader =" "
+syntax on
+set nocompatible
+set number
+set relativenumber
+set cursorline
+set hlsearch
+set incsearch
+set showcmd
+set wildmenu
+set ignorecase
+set smartcase
+set nowrap
+set showmatch
+set ruler
+set scrolloff=5
+" tab space config
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+
+" save and quite key map
+map S :w<CR>
+map Q :q<CR>
+
+"change direction keys in insert mode
+vmap jj <ESC> 
+imap jj <ESC>
+inoremap <C-j> <Left>
+inoremap <C-k> <Down>
+inoremap <C-i> <Up>
+inoremap <C-l> <Right>
+
+"change hjkl to jkli, type h/H to insert mode
+noremap j h
+noremap i k
+noremap k j
+noremap h i
+noremap H I
+
+"space+enter to make search light disappear
+noremap <LEADER><CR> :nohlsearch<CR>
+
+"window switch
+map <LEADER>i <C-w>k
+map <LEADER>j <C-w>h
+map <LEADER>k <C-w>j
+map <LEADER>l <C-w>l
+
+filetype on
+filetype indent on
+filetype plugin on
+filetype plugin indent on
+let &t_ut=''
+"change cursor style of insert mode
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+"cursor on last exit
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+"vim config change take effect immediately
+autocmd BufWritePost $MYVIMRC source $MYVIMRC
+
+let g:SnazzyTransparent = 1
+color snazzy
