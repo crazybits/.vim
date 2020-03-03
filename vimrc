@@ -39,9 +39,9 @@ inoremap <C-l> <Right>
 noremap <LEADER><CR> :nohlsearch<CR>
 
 "window switch
-map <LEADER>i <C-w>k
-map <LEADER>j <C-w>h
-map <LEADER>k <C-w>j
+map <LEADER>h <C-w>h
+map <LEADER>j <C-w>j
+map <LEADER>k <C-w>k
 map <LEADER>l <C-w>l
 
 filetype on
@@ -61,3 +61,6 @@ autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
 let g:SnazzyTransparent = 1
 color snazzy
+"NERDTree config
+map <LEADER>t :NERDTree<CR>
+map <LEADER>tt :NERDTreeToggle<CR>

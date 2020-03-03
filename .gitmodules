@@ -10,3 +10,6 @@
 [submodule "pack/crazybit/start/vim-airline"]
 	path = pack/crazybit/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/crazybit/start/ctrlp.vim"]
+	path = pack/crazybit/start/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
