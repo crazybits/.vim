@@ -20,7 +20,8 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set autoindent
-
+" share vim paste buffer with system level
+set clipboard=unnamedplus
 " save and quite key map
 map S :w<CR>
 map Q :q<CR>
@@ -28,17 +29,11 @@ map Q :q<CR>
 "change direction keys in insert mode
 vmap jj <ESC> 
 imap jj <ESC>
-inoremap <C-j> <Left>
-inoremap <C-k> <Down>
-inoremap <C-i> <Up>
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 
-"change hjkl to jkli, type h/H to insert mode
-noremap j h
-noremap i k
-noremap k j
-noremap h i
-noremap H I
 
 "space+enter to make search light disappear
 noremap <LEADER><CR> :nohlsearch<CR>
