@@ -21,7 +21,7 @@ set shiftwidth=2
 set softtabstop=2
 set autoindent
 " share vim paste buffer with system level
-set clipboard=unnamedplus
+set clipboard=unnamed
 " save and quite key map
 map S :w<CR>
 map Q :q<CR>
@@ -66,3 +66,4 @@ map <LEADER>t :NERDTree<CR>
 map <LEADER>tt :NERDTreeToggle<CR>
 "ctrlp config
 let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_by_filename = 1
