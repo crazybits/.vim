@@ -28,7 +28,7 @@ map Q :q<CR>
 
 "change direction keys in insert mode
 vmap jk <ESC> 
-imap jk <ESC>
+imap jj <ESC>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>

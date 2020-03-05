@@ -13,6 +13,3 @@
 [submodule "pack/crazybit/start/ctrlp.vim"]
 	path = pack/crazybit/start/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
-[submodule "pack/crazybit/start/vim-go"]
-	path = pack/crazybit/start/vim-go
-	url = https://github.com/fatih/vim-go
